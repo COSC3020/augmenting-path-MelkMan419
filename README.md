@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/NehM89hy)
 # Augmenting Paths
 
 When we talked about the Ford-Fulkerson algorithm to find the maximum flow
@@ -32,3 +33,5 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst-case time complexity of the function is Θ(V + E), where V is the number of vertices (nodes) in the graph and E is the number of edges. This complexity arises from the depth-first search (DFS) algorithm used to traverse the graph.
