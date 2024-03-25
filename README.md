@@ -33,3 +33,5 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+The worst-case time complexity of the function is Θ(V + E), where V is the number of vertices (nodes) in the graph and E is the number of edges. This complexity arises from the depth-first search (DFS) algorithm used to traverse the graph.
